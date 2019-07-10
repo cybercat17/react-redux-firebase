@@ -1,13 +1,11 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.dashboard .row .col {
+  padding-left: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+input[type=text]:not(.browser-default):focus:not([readnly]),
+input[type=email]:not(.browser-default):focus:not([readnly]),
+input[type=password]:not(.browser-default):focus:not([readnly]),
+textarea.materialize-textarea:focus:not([readoly]) {
+  border-color: orange;
+  box-shadow: none;
 }
