@@ -13,7 +13,7 @@ const ProjectList = ({ projects }) => {
       );
     })
   ) : (
-    <p>No projects yet</p>
+    <p>Loading projects...</p>
   );
   return (
     <div className="project-list">
